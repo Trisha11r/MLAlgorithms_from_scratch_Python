@@ -83,5 +83,17 @@ Upon normalization, accuracy increased to 91% for the same parameters. This is b
 
 ### Support Vector Machine Classifier (svm.py)
 
+A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimentional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
+
+Running instructions for the python file:
+
+_python3 svm.py_
+
+#### Observations:
+
+Data Points taken for testing: 20 out of 100
+Number of Data Points Misclassified: 0 [Accuracy = 100%] (Figure Below)
+
+<img src = "svm.png" width = "500">
   
   
